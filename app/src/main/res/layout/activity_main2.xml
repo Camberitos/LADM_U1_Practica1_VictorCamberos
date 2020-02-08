@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/amarillo">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/five"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIPS\nTO BUILD A\nLANGUAJE\nLEARNING\nHABIT"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="clip_horizontal"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#DA1EE9CB"
+        android:rotation="-4
+">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#DAE91E63"
+        android:rotation="-4">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Free\nNew Habit\nTracker!"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps">
+        </TextView>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/five"
+            android:layout_marginLeft="30dp"
+            ></ImageView>
+    </LinearLayout>
+</LinearLayout>
